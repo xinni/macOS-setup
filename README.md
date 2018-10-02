@@ -16,7 +16,7 @@
 
 - 节省一些复制粘贴的时间，简化操作步骤
 
-#### Dash
+#### [Dash](https://kapeli.com/dash)
 
 - API查询，配合Alfred和popclip使用速度更快
 
@@ -27,29 +27,29 @@
 - 轻量记录一些笔记，支持Markdown语言，并能像word一样编辑文本样式，不必记住所有markdown的语法，容易上手。
 - 曾经订阅过Ulysses，感觉对我来说过于正式，感觉Ulysses更适合用于写小说等大段文字输出。
 
-#### Sublime Text
+#### [Sublime Text](https://www.sublimetext.com)
 
 - 我的主要文本编辑软件，相较于Atom来说，打开文件的速度让人惊艳，一个5M左右的log文件也能做到秒开，所以果断从atom转投sublime
 - 缺点是中英文混合输入有一点小bug
 - //TODO: addons lists and theme
 
-#### Atom
+#### [Atom](https://atom.io)
 
 - 转投sublime之后只是偶尔用来编辑一下Markdown文件，加上实时预览的插件比较好用。
 - 打开文件的速度是个硬伤
 - //TODO: addons lists
 
-#### Typora
+#### [Typora](https://typora.io)
 
 - 下载下来专门用来编辑Markdown的，暂时还没有深入研究
 
 ### 娱乐应用
 
-#### IINA
+#### [IINA](https://lhc70000.github.io/iina/zh-cn/)
 
 - 用过的Mac播放器不多，但是这一款完全能满足我的各种需求了
 
-#### OpenEmu
+#### [OpenEmu](http://openemu.org)
 
 - 继承了各种模拟器，用来玩一玩怀旧小游戏还是不错的
 
@@ -65,7 +65,7 @@
 - 偶尔做一些硬件的设计足够了
 - 程不够丰富，可能要多多自己摸索
 
-#### Arduino
+#### [Arduino](https://www.arduino.cc/en/Main/Software)
 
 - 官方的Arduino开发程序，与其他平台没什么区别
 - 需要注意的是如果使用的是中国生产的廉价版Arduino板子，可能在连接Mac的时候要安装一些驱动程序才能识别
@@ -105,7 +105,7 @@
 - 分屏软件，比较便宜就入了
 - 原生的分屏实在不方便
 
-#### Etcher
+#### [Etcher](https://pdfexpert.com)
 
 - 磁盘写入软件，当时是给Raspberry Pi写入系统
 
@@ -134,7 +134,7 @@
 
 - 原生的邮件软件看上去比较凌乱，就使用了spark，并没有用什么高级功能，单纯的查收邮件
 
-#### PDF Expert
+#### [PDF Expert](https://pdfexpert.com)
 
 - 从Adobe转入这个，相较于Adobe来说更加轻量，打开文件速度更快
 
