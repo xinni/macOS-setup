@@ -41,7 +41,9 @@
 
 #### [Typora](https://typora.io)
 
-- 下载下来专门用来编辑Markdown的，暂时还没有深入研究
+- 专门用来编辑Markdown
+- 代码块的语法高亮非常不错
+- 所有md文件的编辑都转到这个软件上了，实时显示效果，所见即所得，非常方便，用来编辑GitHub的README文件非常不错
 
 ### 娱乐应用
 
@@ -55,11 +57,12 @@
 
 ### 开发应用
 
-#### IntelliJ IDEA
+#### [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
 - 从eclipse转过来，感觉还不错，也没用到什么高端功能，但颜值就是王道
+- 如果是学生的话是可以免费使用的
 
-#### EAGLE PCB
+#### [EAGLE PCB](https://www.autodesk.com/products/eagle/overview)
 
 - 一个免费的支持Mac的PCB设计软件，好多的开源项目都是用EAGLE设计的
 - 偶尔做一些硬件的设计足够了
@@ -76,7 +79,7 @@
 
 #### Matlab
 
-- 和Windows下没什么区别
+- 没什么好说的，科研狗必备，一般学校网站都会有学校版的license
 
 
 ### 工具类应用
@@ -85,7 +88,7 @@
 
 - 免费时入的，可以避免看一堆没用的东西，最快速的浏览资讯和文章
 
-#### FileZilla
+#### [FileZilla](https://filezilla-project.org)
 
 - 支持全平台，很好用的文件传输软件
 - 唯一的缺点就是总是在更新
@@ -94,7 +97,7 @@
 
 - 记账软件
 
-#### Mos
+#### [Mos](https://mos.caldis.me)
 
 - 如果使用鼠标的话安装这个软件让鼠标更好用
 - 可以反转鼠标滚轮，设置触控板和鼠标都是习惯的操作
@@ -102,6 +105,7 @@
 
 #### Magnet
 
+- App Store 直接购入
 - 分屏软件，比较便宜就入了
 - 原生的分屏实在不方便
 
@@ -109,11 +113,11 @@
 
 - 磁盘写入软件，当时是给Raspberry Pi写入系统
 
-#### Flox
+#### [Flox](https://mac.eltima.com/download-manager.html)
 
 - 轻量级下载工具，我没有升级为pro版，只是偶尔下一些磁力链接
 
-#### CheatSheet
+#### [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
 
 - 长按command键可以呼出一个快捷键的cheatsheet，然而并不常用
 
@@ -122,11 +126,11 @@
 - 偶尔用来清除一下缓存
 - 最近有爆出这个公司窃取用户信息，已经在app store下架
 
-#### Teamviewer
+#### [Teamviewer](https://www.teamviewer.us)
 
 - 远程屏幕
 
-#### Wireshark
+#### [Wireshark](https://www.wireshark.org)
 
 - 著名的网络分析软件
 
@@ -137,13 +141,15 @@
 #### [PDF Expert](https://pdfexpert.com)
 
 - 从Adobe转入这个，相较于Adobe来说更加轻量，打开文件速度更快
+- 可从中国官网购买，比美国官网的教育优惠还便宜，并且可用于授权3台Mac
 
 #### The unarchiver
 
 - 解压缩软件
 
-#### Soundflower
+#### [Soundflower](https://github.com/mattingalls/Soundflower/releases/)
 
 - 用于录屏时的声音处理
 - 只有轻度的录屏需求，于是采用quick time和sound flower的方案，能良好的录制电脑的声音
 - 后期处理采用iMoive
+
