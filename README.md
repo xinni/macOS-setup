@@ -153,3 +153,51 @@
 - 只有轻度的录屏需求，于是采用quick time和sound flower的方案，能良好的录制电脑的声音
 - 后期处理采用iMoive
 
+
+
+## 各种设置
+
+### 配置
+
+#### Homebrew配置
+
+- Homebrew的安装请参照[官网](https://brew.sh)的命令。
+
+  Homebrew的更新请参阅以下
+
+- `brew update` 更新homebrew，建议时常运行一下此命令，保持homebrew为最新。
+
+- `brew outdated` 
+
+- `brew upgrade` 
+
+- `brew upgrade $FORMULA` 
+
+- `brew cleanup -n` 
+
+- `brew cleanup` 
+
+- `brew pin $FORMULA` 
+
+- `brew unpin $FORMULA` 
+
+- `brew info` 
+
+- `brew doctor` 
+
+- `brew deps --installed --tree` 
+
+#### OpenCV配置
+
+- macOS下安装OpenCV最简单的方法是安装Homebrew。
+- 安装Homebrew以后，先检查是否已经安装最新的XCode Command Line Tools，打开Terminal（终端）应用输入`xcode-select --install`，macOS会自动进行安装，如果已经安装则继续进行下一步。
+
+- 先确定是否已安装Apche Ant，Ant应该在`/usr/local/bin/ant`当中，如果没有安装在Terminal中执行` brew install ant`。
+
+- 用`brew edit opencv` `-BUILD_opencv_java=OFF` `-BUILD_opencv_java=ON` `brew install --build-from-source opencv` 
+
+- ` /usr/local/Cellar/opencv/3.x.x/share/OpenCV/java/` 
+
+  ` /usr/local/Cellar/opencv/3.x.x/share/OpenCV/java/`
+
+- `brew uninstall opencv` 
