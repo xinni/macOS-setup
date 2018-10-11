@@ -167,7 +167,7 @@
 
 - `brew update` 更新homebrew，建议时常运行一下此命令，保持homebrew为最新。
 
-- `brew outdated` 
+- `brew outdated` 查看homebrew中过期的包，仅查看，不执行任何操作
 
 - `brew upgrade` 
 
