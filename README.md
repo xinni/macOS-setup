@@ -20,9 +20,14 @@
 
 - API查询，配合Alfred和popclip使用速度更快
 
+#### [Thing 3](https://culturedcode.com/things/)
+
+- 正在使用的GTD软件，相较于OmniFocus更轻量级，足以满足我的日常需要
+- 可通过一定方法无限试用
+
 ### 文本编辑
 
-#### Bear
+#### [Bear](https://bear.app)
 
 - 轻量记录一些笔记，支持Markdown语言，并能像word一样编辑文本样式，不必记住所有markdown的语法，容易上手。
 - 曾经订阅过Ulysses，感觉对我来说过于正式，感觉Ulysses更适合用于写小说等大段文字输出。
@@ -81,7 +86,7 @@
 
 - 没什么好说的，科研狗必备，一般学校网站都会有学校版的license
 
-#### Fiji 
+#### [Fiji](https://fiji.sc)
 
 - 图像处理用的软件，因为ImageJ不太适用于当前mac版本，所以找到的这个，基于ImageJ开发，基本功能都是一样的
 
@@ -100,6 +105,7 @@
 #### MoneyWiz 2
 
 - 记账软件
+- 从中国区购买有一定优惠
 
 #### [Mos](https://mos.caldis.me)
 
@@ -179,7 +185,7 @@
 
 - `brew cleanup -n` 
 
-- `brew cleanup` 
+- `brew cleanup` 清理掉过期的包以及安装程序
 
 - `brew pin $FORMULA` 
 
