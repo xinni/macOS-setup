@@ -194,7 +194,7 @@
 
 - `brew info` 
 
-- `brew doctor` 
+- `brew doctor` 检查homebrew是否完善
 
 - `brew deps --installed --tree` 
 
