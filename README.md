@@ -201,6 +201,7 @@
 #### OpenCV配置
 
 - macOS下安装OpenCV最简单的方法是安装Homebrew。
+
 - 安装Homebrew以后，先检查是否已经安装最新的XCode Command Line Tools，打开Terminal（终端）应用输入`xcode-select --install`，macOS会自动进行安装，如果已经安装则继续进行下一步。
 
 - 先确定是否已安装Apche Ant，Ant应该在`/usr/local/bin/ant`当中，如果没有安装在Terminal中执行` brew install ant`。
@@ -212,3 +213,8 @@
   ` /usr/local/Cellar/opencv/3.x.x/share/OpenCV/java/`
 
 - `brew uninstall opencv` 
+
+#### Oh-my-zsh配置
+
+- 配置[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)，用oh-my-zsh的安装方式
+- 配置[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)，用oh-my-zsh方式安装
