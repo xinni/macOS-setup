@@ -196,7 +196,7 @@
 
 - `brew doctor` 检查homebrew是否完善
 
-- `brew deps --installed --tree` 
+- `brew deps --installed --tree` 查看已安装包的依存关系
 
 #### OpenCV配置
 
