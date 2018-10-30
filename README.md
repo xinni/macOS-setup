@@ -164,6 +164,16 @@
 - 只有轻度的录屏需求，于是采用quick time和sound flower的方案，能良好的录制电脑的声音
 - 后期处理采用iMoive
 
+#### [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/)
+
+- 用于编辑plist文件，修改偏好设置，延长试用
+
+#### [Bartender 3](https://www.macbartender.com)
+
+- 软件多了之后Menu Bar难免会变得凌乱，可以用这个软件隐藏处于Menu Bar里的东西
+- 还有一个替代软件vinilla？？
+- 可以进行无限试用
+
 
 
 ## 各种设置
@@ -192,7 +202,7 @@
 
 - `brew unpin $FORMULA` 
 
-- `brew info` 
+- `brew info` 检查当前的包数量，文件数量，及占用空间的大小
 
 - `brew doctor` 检查homebrew是否完善
 
@@ -218,3 +228,8 @@
 
 - 配置[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)，用oh-my-zsh的安装方式
 - 配置[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)，用oh-my-zsh方式安装
+- 更新oh-my-zsh使用`upgrade_oh_my_zsh`命令
+- 加入alias `zshconfig`用于打开.zshrc文件进行修改
+- autojump
+- 使用的主题是“ys”
+- 改变字体为mono robot，profile 为 pro
