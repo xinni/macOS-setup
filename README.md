@@ -178,6 +178,33 @@
 
 ## 各种设置
 
+### 系统设置
+
+#### .DS_Store文件处理
+
+- 禁止DS_Store文件生成 
+
+  `defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE`
+
+- 恢复DS_Stroe文件生成
+
+  `defaults delete com.apple.desktopservices DSDontWriteNetworkStores`
+
+#### 设置菜单栏，dock为深色模式
+
+- MacOS Mojave中支持了深色模式，但在白天长时间使用后，过高的对比度可能会引发视觉疲劳。另外应用未适配、网页没有深色模式等都会造成窗口视觉效果不统一等等问题。而且在加入深色主题后，系统偏好设置中原有的「使用深色菜单栏和程序坞」功能就被替换掉了。
+
+- 方法为
+
+  1. 在「系统偏好设置 - 通用」中将外观切换成「浅色」。
+  2. 打开终端，输入指令：`defaults write -g NSRequiresAquaSystemAppearance -bool Yes`
+  3. 注销并重新登录。这一步会关闭当前所有打开的应用，因此需要提前保存好所有文稿。
+  4. 在「系统偏好设置 - 通用」中将外观切换成「深色」。
+
+  此时你就能看到菜单栏和程序坞变成了深色模式，但是其他内容仍旧保持浅色模式。
+
+- 如果你想要恢复成默认的深色模式，那么在终端中输入 `defaults write -g NSRequiresAquaSystemAppearance -bool No`，再执行第 3 步即可。
+
 ### 配置
 
 #### Homebrew配置
@@ -194,7 +221,7 @@
 
 - `brew upgrade $FORMULA` 
 
-- `brew cleanup -n` 
+- `brew cleanup -n` 查看可以清理内容的列表以及可以释放的空间
 
 - `brew cleanup` 清理掉过期的包以及安装程序
 
@@ -216,13 +243,27 @@
 
 - 先确定是否已安装Apche Ant，Ant应该在`/usr/local/bin/ant`当中，如果没有安装在Terminal中执行` brew install ant`。
 
-- 用`brew edit opencv` `-BUILD_opencv_java=OFF` `-BUILD_opencv_java=ON` `brew install --build-from-source opencv` 
+- 用`brew edit opencv`
+
+  找到文件中
+
+   `-BUILD_opencv_java=OFF`
+
+  将其改写为
+
+   `-BUILD_opencv_java=ON`
+
+  然后重新安装opencv
+
+   `brew install --build-from-source opencv` 
 
 - ` /usr/local/Cellar/opencv/3.x.x/share/OpenCV/java/` 
 
   ` /usr/local/Cellar/opencv/3.x.x/share/OpenCV/java/`
 
-- `brew uninstall opencv` 
+- 需要注意如果原本已经安装过opencv此方法可能失效，所以先需要删除原本安装的版本
+
+  `brew uninstall opencv` 
 
 #### Oh-my-zsh配置
 
