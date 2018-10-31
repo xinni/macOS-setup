@@ -225,9 +225,9 @@
 
 - `brew cleanup` 清理掉过期的包以及安装程序
 
-- `brew pin $FORMULA` 
+- `brew pin $FORMULA` 锁定一个包，忽略这个包的所有更新
 
-- `brew unpin $FORMULA` 
+- `brew unpin $FORMULA` 解锁一个包，使其恢复更新检查
 
 - `brew info` 检查当前的包数量，文件数量，及占用空间的大小
 
