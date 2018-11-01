@@ -219,7 +219,7 @@
 
 - `brew upgrade` 更新homebrew中过期的包。
 
-- `brew upgrade $FORMULA` 
+- `brew upgrade $FORMULA` 更新固定的包，其余不变
 
 - `brew cleanup -n` 查看可以清理内容的列表以及可以释放的空间
 
