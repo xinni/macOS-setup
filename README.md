@@ -261,7 +261,7 @@
 
   ` /usr/local/Cellar/opencv/3.x.x/share/OpenCV/java/`
 
-- 需要注意如果原本已经安装过opencv此方法可能失效，所以先需要删除原本安装的版本
+- 需要注意如果原本已经安装过opencv此方法可能失效，所以先需要删除原本安装的版本，然后再进行安装步骤
 
   `brew uninstall opencv` 
 
