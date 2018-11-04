@@ -2,6 +2,8 @@
 
 > 为了方便重新配置更新mac，将我电脑中的软件和工具做个总结，并附带一些软件的配置
 
+![Screen shot](https://github.com/xinni/macOS-setup/blob/master/Pictrues/screenshot.png)
+
 ## 应用篇
 
 ### 效率应用
