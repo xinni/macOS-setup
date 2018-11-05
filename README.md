@@ -14,6 +14,8 @@
 - Alfred中很多功能可以替代许多单独应用，智能剪切板（可以保存复制的内容，避免重复操作），常用短语扩展等
 - Workflow可以用来扩展更多功能 //TODO: workflow list
 
+![Alfred workflows](https://github.com/xinni/macOS-setup/blob/master/Pictrues/Alfred%20workflows.png)
+
 #### [Popclip](https://pilotmoon.com/popclip/)
 
 - 节省一些复制粘贴的时间，简化操作步骤
@@ -22,6 +24,8 @@
 #### [Dash](https://kapeli.com/dash)
 
 - API查询，配合Alfred和popclip使用速度更快
+
+![Dash with Alfred](https://github.com/xinni/macOS-setup/blob/master/Pictrues/Dash%20with%20Alfred.png)
 
 #### [Thing 3](https://culturedcode.com/things/)
 
