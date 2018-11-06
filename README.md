@@ -67,6 +67,8 @@
 
 - 继承了各种模拟器，用来玩一玩怀旧小游戏还是不错的
 
+![OpenEmu](https://github.com/xinni/macOS-setup/blob/master/Pictrues/OpenEmu.png)
+
 ### 开发应用
 
 #### [IntelliJ IDEA](https://www.jetbrains.com/idea/)
