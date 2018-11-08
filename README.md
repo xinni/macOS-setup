@@ -275,10 +275,24 @@
 
 #### Oh-my-zsh配置
 
+- Oh My ZSH的安装参照[官网](https://ohmyz.sh)，有两种方法可以安装，curl和wget，如果不可使用命令就先用homebrew安装，如`brew install wget`
+
+  1. 安装完成后用命令`chsh -s /usr/local/bin/zsh` 修改默认shell为zsh
+
+  2. 修改zsh的主题，终端中运行`nano .zshrc` 找到ZSH_THEME="robbyrussell"，修改为自己想要的主题，我用的是ys主题
+
+  3. 设置自己的alias
+
+     ```shell
+     alias zshconfig="subl ~/.zshrc"  #用于打开.zshrc文件进行修改
+     alias ohmyzsh="open ~/.oh-my-zsh"
+     alias subl=\''/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'\'
+     alias clc=clear
+     ```
+
+  4. 添加autojump
+
 - 配置[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)，用oh-my-zsh的安装方式
 - 配置[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)，用oh-my-zsh方式安装
 - 更新oh-my-zsh使用`upgrade_oh_my_zsh`命令
-- 加入alias `zshconfig`用于打开.zshrc文件进行修改
-- autojump
-- 使用的主题是“ys”
 - 改变字体为mono robot，profile 为 pro
