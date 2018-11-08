@@ -295,4 +295,4 @@
 - 配置[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)，用oh-my-zsh的安装方式
 - 配置[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)，用oh-my-zsh方式安装
 - 更新oh-my-zsh使用`upgrade_oh_my_zsh`命令
-- 改变字体为mono robot，profile 为 pro
+- 改变字体为[Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)，profile 为 pro
