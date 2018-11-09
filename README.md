@@ -19,7 +19,7 @@
 #### [Popclip](https://pilotmoon.com/popclip/)
 
 - 节省一些复制粘贴的时间，简化操作步骤
-- 通过方法无限试用
+- 通过一些方法可以进行无限试用
 
 #### [Dash](https://kapeli.com/dash)
 
