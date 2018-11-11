@@ -293,6 +293,28 @@
   4. 添加autojump
 
 - 配置[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)，用oh-my-zsh的安装方式
+
 - 配置[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)，用oh-my-zsh方式安装
+
 - 更新oh-my-zsh使用`upgrade_oh_my_zsh`命令
+
 - 改变字体为[Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)，profile 为 pro
+
+## 周边篇
+
+### 外接显示器
+
+#### 关于HUB
+
+- 选购外接显示器的时候发现了一些问题，在现有的HUB下，HDMI接口一般只能支持到4K 30Hz（测试的自用的Hootoo），查资料发现基本所有的HUB都只能支持到4K 30Hz，然而实际使用来看30Hz的刷新频率实在是有些不适，于是购入一条 type-c 转 DP 的线，用这条线外接显示器可以达到4K 60Hz。
+
+#### 关于显示器
+
+- 选择显示器需2K以上分辨率才能达到良好的显示效果
+
+#### 清洁产品
+
+- Whoosh是苹果店中使用的用于清洁屏幕的产品
+
+
+
