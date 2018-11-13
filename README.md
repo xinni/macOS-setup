@@ -182,6 +182,11 @@
 - 还有一个替代软件vinilla？？
 - 可以进行无限试用
 
+#### [Karabiner Elements](https://pqrs.org/osx/karabiner/)
+
+- 可以修改键盘的键位，使之更符合个人的使用习惯
+- 改善用输入法输入是无法用组合键移动光标的问题。（见下文改变键位设置）
+
 
 
 ## 各种设置
@@ -198,6 +203,8 @@
 
   `defaults delete com.apple.desktopservices DSDontWriteNetworkStores`
 
+
+
 #### 设置菜单栏，dock为深色模式
 
 - MacOS Mojave中支持了深色模式，但在白天长时间使用后，过高的对比度可能会引发视觉疲劳。另外应用未适配、网页没有深色模式等都会造成窗口视觉效果不统一等等问题。而且在加入深色主题后，系统偏好设置中原有的「使用深色菜单栏和程序坞」功能就被替换掉了。
@@ -212,6 +219,125 @@
   此时你就能看到菜单栏和程序坞变成了深色模式，但是其他内容仍旧保持浅色模式。
 
 - 如果你想要恢复成默认的深色模式，那么在终端中输入 `defaults write -g NSRequiresAquaSystemAppearance -bool No`，再执行第 3 步即可。
+
+
+
+#### 改变键位设置（Karabiner Elements）
+
+为了改善使用输入法时用组合键移动光标退出输入法的问题。用 Karabiner Elements 软件进行一些设置。
+
+
+
+1. 在 ` ~/.config/karabiner/assets/complex_modifications` 路径下新建一个 json 文件，名字可以随便起，后缀名是 json ， 然后复制我下面的代码进去，保存退出。（用文本编辑器进行编辑，如Atom，Sublime Text，VS code 等 ）
+2. 在 Karabiner Elements 的 Preferences 里选择 Complex Modifications ，然后点击 Add rule ，Enable 这个规则就好了。
+
+
+
+```json
+{
+  "title": "For Input Sources Emacs control",
+  "rules": [
+    {
+      "description": "Use Control + h/d as Backspace/Delete, and Control + p/n/b/f as arrow key for nonEnglish input",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ]
+        }, {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ]
+        }, {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ]
+        }, {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ]
+        }, {
+          "type": "basic",
+          "from": {
+            "key_code": "b",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ]
+        }, {
+          "type": "basic",
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+
 
 ### 配置
 
