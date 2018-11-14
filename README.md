@@ -426,6 +426,14 @@
 
 - 改变字体为[Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)，profile 为 pro
 
+- 设置 git 支持中文
+
+```shell
+git config --global core.quotepath false
+```
+
+
+
 ## 周边篇
 
 ### 外接显示器
