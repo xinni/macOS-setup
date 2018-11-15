@@ -224,7 +224,7 @@
 
 #### 改变键位设置（Karabiner Elements）
 
-为了改善使用输入法时用组合键移动光标退出输入法的问题。用 Karabiner Elements 软件进行一些设置。
+为了改善使用输入法时用组合键移动光标退出输入法的问题。用 Karabiner Elements 软件进行一些设置。（详情见中文输入法改键位）
 
 
 
