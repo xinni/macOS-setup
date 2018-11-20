@@ -51,6 +51,12 @@
 - 打开文件的速度是个硬伤
 - //TODO: addons lists
 
+#### VScode
+
+
+
+
+
 #### [Typora](https://typora.io)
 
 - 专门用来编辑Markdown
