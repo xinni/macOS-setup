@@ -53,7 +53,8 @@
 
 #### VScode
 
-
+- 修改字体为Roboto Mono
+- 插件 cuda C++
 
 
 
